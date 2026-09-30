@@ -1,0 +1,16 @@
+{
+  "name": "exhibition-event-management",
+  "version": "1.0.0",
+  "description": "ExhiConnect Night Flea Market Platform",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js",
+    "backend": "npm --prefix backend start",
+    "frontend": "npm --prefix frontend run dev",
+    "build": "cd frontend && npm run build",
+    "vercel-build": "cd frontend && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
